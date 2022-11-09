@@ -54,22 +54,7 @@ class Book {
       document.querySelector('#author').value = '';
       document.querySelector('#isbn').value = '';
     }
-
-    static editBook(el){
-        //Getting innerHTML of table
-        let tableTitle = document.querySelector(".table-title").innerHTML
-        let tableAuthor = document.querySelector(".table-author").innerHTML
-        let tableGenre = document.querySelector(".table-genre").innerHTML
-        let tableYear = document.querySelector(".table-year").innerHTML
-  
-        if (el.classList.contains('edit')) {
-            document.querySelector("#title").value = tableTitle;
-            document.querySelector("#author").value = tableAuthor;
-            document.querySelector("#genre").value = tableGenre;
-            document.querySelector("#year").value = tableYear;
-        }
-        el.parentElement.parentElement.remove()
-    }
+    
 
   }
   
