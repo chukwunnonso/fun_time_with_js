@@ -47,7 +47,7 @@ class Functionalities{
             document.querySelector("#author").value = tableAuthor;
             document.querySelector("#isbn").value = tableisbn;
         }
-        // el.parentElement.parentElement.remove()
+         el.parentElement.parentElement.remove()
     }
 }
 
